@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ericblade/quagga2": "^1.8.4",
+    "@tailwindcss/vite": "^4.0.9",
+    "@zxing/library": "^0.21.3",
+    "jsqr": "^1.4.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9",
+    "vite": "^6.2.0"
+  }
+}
