@@ -22,8 +22,8 @@ const PORT = parseInt(Deno.env.get("PORT") || "8000");
 const HOST = Deno.env.get("HOST") || "0.0.0.0"; // Use 0.0.0.0 to allow connections from any network interface
 
 // Authentication settings
-const AUTH_USERNAME = Deno.env.get("AUTH_USERNAME") || "admin";
-const AUTH_PASSWORD = Deno.env.get("AUTH_PASSWORD") || "password123";
+const AUTH_USERNAME = Deno.env.get("AUTH_USERNAME");
+const AUTH_PASSWORD = Deno.env.get("AUTH_PASSWORD");
 
 if (!AUTH_USERNAME || !AUTH_PASSWORD) {
   console.error(
